@@ -2,9 +2,11 @@
 
 Web-based visualization of XRF maps, compatible with PyMCA fit output and other fitting tools.
 
-Live publicly available XRFitVis service on: https://vuo.elettra.eu/go/xrfitvis but you can make it run locally on your server with the following instructions.
+Live publicly available XRFitVis service on: https://vuo.elettra.eu/go/xrfitvis 
 
 ## Setup
+
+The software can be installed on your local server
 
 #### Setup anacoda, miniconda, mamba or micromamba
 
