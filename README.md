@@ -2,13 +2,15 @@
 
 Web-based visualization of XRF maps, compatible with PyMCA fit output and other fitting tools.
 
+Live publicly available XRFitVis service on: https://vuo.elettra.eu/go/xrfitvis but you can make it run locally on your server with the following instructions.
+
 ## Setup
 
 #### Setup anacoda, miniconda, mamba or micromamba
 
-Skip if not needed
+[Skip to "Download and run" if not needed]
 
-For micromamba
+For micromamba:
 
 ```bash
 # download micromamba and run the installer
@@ -41,7 +43,9 @@ micromamba create -n xrffitvis -c conda-forge numpy scipy scikit-image scikit-le
 conda activate xrffitvis
 ```
 
-then download the XRFitVis software with:
+## Download and run
+
+Download the XRFitVis software with:
 
 ```bash
 git clone https://github.com/ElettraSciComp/XRFitVis
