@@ -41,8 +41,8 @@ unset __mamba_setup
 Now you can create your Python environment and activate it with:
 
 ```bash
-micromamba create -n xrffitvis -c conda-forge numpy scipy scikit-image scikit-learn h5py matplotlib pandas seaborn requests nicegui opencv tifffile python-dotenv
-conda activate xrffitvis
+micromamba create -n xrfitvisenv -c conda-forge numpy scipy scikit-image scikit-learn h5py matplotlib pandas seaborn requests nicegui opencv tifffile python-dotenv
+conda activate xrfitvisenv
 ```
 
 ## Download and run
