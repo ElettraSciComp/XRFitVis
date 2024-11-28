@@ -70,7 +70,7 @@ You can change the port where the application is served and eventually setup you
             proxy_set_header Authorization $http_authorization;
             proxy_pass_header Authorization;
             proxy_set_header Host $http_host;
-            #proxy_socket_keepalive on ;
+            proxy_socket_keepalive on ;
             proxy_pass http://127.0.0.1:8228/$1?$args;
             proxy_set_header X-Forwarded-Prefix /xrfitvis;
             proxy_redirect  http://127.0.0.1:8228/ /xrfitvis/;
