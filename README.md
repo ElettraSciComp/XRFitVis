@@ -78,3 +78,5 @@ You can change the port where the application is served and eventually setup you
 ```
 
 Then navigate to `http://localhost/xrfitvis` and you should see the main web interface running
+
+![](xrfitvisscr.png)
